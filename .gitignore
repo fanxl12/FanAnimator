@@ -1,0 +1,10 @@
+*.iml
+.gradle
+/local.properties
+/.idea
+/gradle
+/FanAnimator.iml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
