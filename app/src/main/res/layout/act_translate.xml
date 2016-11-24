@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <Button
+        android:id="@+id/bt_anim_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开始"/>
+
+    <TextView
+        android:id="@+id/anim_tv"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:background="#e47171"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:text="我是动画"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bt_anim_start"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/map_iv_hand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_map_hand_bg"
+            android:padding="10dp"
+            app:srcCompat="@drawable/icon_map_hand"/>
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/map_iv_metro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#99000000"
+            android:padding="10dp"
+            app:srcCompat="@drawable/icon_map_metro"/>
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/map_iv_school"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#99000000"
+            android:padding="10dp"
+            app:srcCompat="@drawable/icon_map_school"/>
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/map_icon_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_map_location_bg"
+            android:padding="10dp"
+            app:srcCompat="@drawable/icon_map_location"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/map_ll_tool"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="150px"
+        android:background="@drawable/ic_map_icon_bg"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/main_iv_hand"
+            style="@style/mapIconStyle"
+            app:srcCompat="@drawable/icon_map_hand"/>
+
+        <View
+            android:id="@+id/map_line_one"
+            style="@style/mapIconLine"/>
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/main_iv_metro"
+            style="@style/mapIconStyle"
+            app:srcCompat="@drawable/icon_map_metro"/>
+
+        <View
+            android:id="@+id/map_line_two"
+            style="@style/mapIconLine"/>
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/main_iv_school"
+            style="@style/mapIconStyle"
+            app:srcCompat="@drawable/icon_map_school"/>
+
+        <View
+            android:id="@+id/map_line_three"
+            style="@style/mapIconLine"/>
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/main_iv_location"
+            style="@style/mapIconStyle"
+            app:srcCompat="@drawable/icon_map_location"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -22,6 +22,12 @@
             android:layout_height="wrap_content"
             android:text="xml取消"/>
 
+        <Button
+            android:id="@+id/xml_bt_set"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="set"/>
+
     </LinearLayout>
 
     <LinearLayout
@@ -47,6 +53,7 @@
         android:id="@+id/anim_tv"
         android:layout_width="100dp"
         android:layout_height="30dp"
+        android:layout_marginTop="60dp"
         android:background="#e47171"
         android:gravity="center"
         android:layout_gravity="center_horizontal"
