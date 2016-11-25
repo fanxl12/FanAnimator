@@ -18,6 +18,7 @@
         <activity android:name=".view.ScaleActivity"/>
         <activity android:name=".view.TranslateActivity"/>
         <activity android:name=".property.ValueActivity"/>
+        <activity android:name=".property.ObjectActivity"/>
     </application>
 
 </manifest>

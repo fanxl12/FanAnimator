@@ -11,4 +11,16 @@
         android:layout_height="wrap_content"
         android:text="动画"/>
 
+    <Button
+        android:id="@+id/value_bt_evaluator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义Evaluator"/>
+
+    <TextView
+        android:id="@+id/value_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"/>
+
 </LinearLayout>
