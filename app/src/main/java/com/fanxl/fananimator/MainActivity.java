@@ -10,6 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.fanxl.fananimator.activity.AnimationActivity;
 import com.fanxl.fananimator.entity.MainBean;
 import com.fanxl.fananimator.property.ObjectActivity;
 import com.fanxl.fananimator.property.ValueActivity;
@@ -38,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
 		datas.add(new MainBean(TranslateActivity.class));
 		datas.add(new MainBean(ValueActivity.class));
 		datas.add(new MainBean(ObjectActivity.class));
+		datas.add(new MainBean(AnimationActivity.class));
 
 		main_rv = (RecyclerView) findViewById(R.id.main_rv);
 		main_rv.setLayoutManager(new LinearLayoutManager(this));

@@ -19,6 +19,8 @@
         <activity android:name=".view.TranslateActivity"/>
         <activity android:name=".property.ValueActivity"/>
         <activity android:name=".property.ObjectActivity"/>
+        <activity android:name=".activity.AnimationActivity"/>
+        <activity android:name=".activity.TestActivity"/>
     </application>
 
 </manifest>
